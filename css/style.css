@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Neucha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #280b6f;
+}
+
+
+/* Formatação do Cabeçalho */
+
+header {
+    text-align: center;
+}
+
+.area-titulo {
+    font: 1em 'Antic Slab', serif;
+    color: #fff;
+    height: 130px;
+    padding-top: 15px;
+    background-color: #4112B8;
+}
+
+/* Formatação da Imagem do Cabeçalho */
+.area-imagem {
+    height: 130px;
+    background-color: #fff;
+}
+
+.area-imagem>img {
+    width: 150px;
+    position: relative;
+    top: -75px;
+    border-radius: 100%;
+}
+
+/* Formatação da Seção de Links */
+
+.box-links {
+    width: 600px;
+    margin: 30px auto;
+    transition: width 0.5s;
+}
+
+.links {
+    font: 1.3em 'Neucha', cursive;
+    text-align: center;
+    min-width: 180px;
+    min-height: 180px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    border: 3px solid #261915;
+    border-radius: 10px;
+    transition: min-width 0.5s, min-height 0.5s, border 0.5s;
+    background-color: #FFF47A;
+}
+
+.links>img {
+    width: 32px;
+    margin: 30px auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.links:hover {
+    min-width: 190px;
+    min-height: 190px;
+    box-shadow: 1px 1px 3px #000;
+    background-color: #fff;
+}
+
+.box-links:hover {
+    width: 620px;
+}
+
+.links a:link, a:visited {
+    color: #261915;
+    font-weight: bold;
+    text-decoration: none;
+}
