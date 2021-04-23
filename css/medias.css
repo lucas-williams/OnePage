@@ -1,18 +1,19 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 600px){
-
-    .links {
-        width: 150px;
-        margin: 10px auto;
-        float: none;
-    }
-
     .box-links {
         width: 100%;
     }
 
     .box-links:hover {
         width: 100%;
+    }
+
+    .links {
+        float: none;
+        display: block;
+        height: 180px;
+        width: 180px;
+        margin: 10px auto;
     }
 }

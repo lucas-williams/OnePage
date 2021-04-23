@@ -13,7 +13,6 @@ body {
     background-color: #007ba7;
 }
 
-
 /* Formatação do Cabeçalho */
 
 header {
@@ -46,7 +45,11 @@ header {
 .box-links {
     width: 600px;
     margin: 30px auto;
-    transition: width 0.5s;
+    transition: width 0.3s;
+}
+
+.box-links:hover {
+    width: 620px;
 }
 
 .links {
@@ -59,15 +62,8 @@ header {
     float: left;
     border: 3px solid #261915;
     border-radius: 10px;
-    transition: min-width 0.3s, min-height 0.3s, border 0.5s;
+    transition: min-width 0.3s, min-height 0.3s;
     background-color: #003153;
-}
-
-.links>img {
-    width: 32px;
-    margin: 30px auto;
-    margin-bottom: 10px;
-    display: block;
 }
 
 .links:hover {
@@ -77,8 +73,11 @@ header {
     background-color: rgb(0, 127, 255);
 }
 
-.box-links:hover {
-    width: 620px;
+.links>img {
+    width: 32px;
+    margin: 30px auto;
+    margin-bottom: 10px;
+    display: block;
 }
 
 a:link, a:visited {
